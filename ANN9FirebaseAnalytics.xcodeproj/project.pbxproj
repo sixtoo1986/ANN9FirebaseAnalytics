@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB4308F05D77EC816CBFE56 /* Pods_ANN9FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF3ADF52617E8D35064948 /* Pods_ANN9FirebaseAnalytics.framework */; };
+		5F1FA5EA225EE3380049929A /* ANN9FirebaseAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1FA5E8225EE3380049929A /* ANN9FirebaseAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F1FA5F2225EE38F0049929A /* ANN9FIRApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1FA5F0225EE38F0049929A /* ANN9FIRApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F1FA5F3225EE38F0049929A /* ANN9FIRApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA5F1225EE38F0049929A /* ANN9FIRApp.m */; };
+		5F1FA5F6225EE3EF0049929A /* ANN9Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1FA5F4225EE3EE0049929A /* ANN9Analytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F1FA5F7225EE3EF0049929A /* ANN9Analytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA5F5225EE3EF0049929A /* ANN9Analytics.m */; };
+		5F1FA630225F395E0049929A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA62F225F395E0049929A /* AppDelegate.m */; };
+		5F1FA633225F395E0049929A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA632225F395E0049929A /* ViewController.m */; };
+		5F1FA636225F395E0049929A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1FA634225F395E0049929A /* Main.storyboard */; };
+		5F1FA638225F39600049929A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1FA637225F39600049929A /* Assets.xcassets */; };
+		5F1FA63B225F39600049929A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1FA639225F39600049929A /* LaunchScreen.storyboard */; };
+		5F1FA63E225F39600049929A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FA63D225F39600049929A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F1FA5E5225EE3380049929A /* ANN9FirebaseAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANN9FirebaseAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1FA5E8225EE3380049929A /* ANN9FirebaseAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANN9FirebaseAnalytics.h; sourceTree = "<group>"; };
+		5F1FA5E9225EE3380049929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1FA5F0225EE38F0049929A /* ANN9FIRApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANN9FIRApp.h; sourceTree = "<group>"; };
+		5F1FA5F1225EE38F0049929A /* ANN9FIRApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANN9FIRApp.m; sourceTree = "<group>"; };
+		5F1FA5F4225EE3EE0049929A /* ANN9Analytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANN9Analytics.h; sourceTree = "<group>"; };
+		5F1FA5F5225EE3EF0049929A /* ANN9Analytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANN9Analytics.m; sourceTree = "<group>"; };
+		5F1FA62C225F395E0049929A /* ANN9FirebaseAnalyticsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANN9FirebaseAnalyticsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1FA62E225F395E0049929A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F1FA62F225F395E0049929A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F1FA631225F395E0049929A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F1FA632225F395E0049929A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F1FA635225F395E0049929A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F1FA637225F39600049929A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F1FA63A225F39600049929A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F1FA63C225F39600049929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1FA63D225F39600049929A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A38748BA0B395C36EED99B17 /* Pods-ANN9FirebaseAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANN9FirebaseAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ANN9FirebaseAnalytics/Pods-ANN9FirebaseAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		DDAF3ADF52617E8D35064948 /* Pods_ANN9FirebaseAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANN9FirebaseAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB6183982D17AE24A64282B /* Pods-ANN9FirebaseAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANN9FirebaseAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-ANN9FirebaseAnalytics/Pods-ANN9FirebaseAnalytics.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1FA5E2225EE3380049929A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB4308F05D77EC816CBFE56 /* Pods_ANN9FirebaseAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA629225F395E0049929A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1FA5DB225EE3380049929A = {
+			isa = PBXGroup;
+			children = (
+				5F1FA5E7225EE3380049929A /* ANN9FirebaseAnalytics */,
+				5F1FA62D225F395E0049929A /* ANN9FirebaseAnalyticsSample */,
+				5F1FA5E6225EE3380049929A /* Products */,
+				7EC45BCF4C62E48065918A8E /* Pods */,
+				CFE1062AF25FC79F8DEBD8B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F1FA5E6225EE3380049929A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA5E5225EE3380049929A /* ANN9FirebaseAnalytics.framework */,
+				5F1FA62C225F395E0049929A /* ANN9FirebaseAnalyticsSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F1FA5E7225EE3380049929A /* ANN9FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA5F4225EE3EE0049929A /* ANN9Analytics.h */,
+				5F1FA5F5225EE3EF0049929A /* ANN9Analytics.m */,
+				5F1FA5F0225EE38F0049929A /* ANN9FIRApp.h */,
+				5F1FA5F1225EE38F0049929A /* ANN9FIRApp.m */,
+				5F1FA5E8225EE3380049929A /* ANN9FirebaseAnalytics.h */,
+				5F1FA627225F30560049929A /* Other */,
+			);
+			path = ANN9FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		5F1FA627225F30560049929A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA5E9225EE3380049929A /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5F1FA62D225F395E0049929A /* ANN9FirebaseAnalyticsSample */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FA62E225F395E0049929A /* AppDelegate.h */,
+				5F1FA62F225F395E0049929A /* AppDelegate.m */,
+				5F1FA631225F395E0049929A /* ViewController.h */,
+				5F1FA632225F395E0049929A /* ViewController.m */,
+				5F1FA634225F395E0049929A /* Main.storyboard */,
+				5F1FA637225F39600049929A /* Assets.xcassets */,
+				5F1FA639225F39600049929A /* LaunchScreen.storyboard */,
+				5F1FA63C225F39600049929A /* Info.plist */,
+				5F1FA63D225F39600049929A /* main.m */,
+			);
+			path = ANN9FirebaseAnalyticsSample;
+			sourceTree = "<group>";
+		};
+		7EC45BCF4C62E48065918A8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38748BA0B395C36EED99B17 /* Pods-ANN9FirebaseAnalytics.debug.xcconfig */,
+				EFB6183982D17AE24A64282B /* Pods-ANN9FirebaseAnalytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFE1062AF25FC79F8DEBD8B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF3ADF52617E8D35064948 /* Pods_ANN9FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F1FA5E0225EE3380049929A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA5F6225EE3EF0049929A /* ANN9Analytics.h in Headers */,
+				5F1FA5F2225EE38F0049929A /* ANN9FIRApp.h in Headers */,
+				5F1FA5EA225EE3380049929A /* ANN9FirebaseAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F1FA5E4225EE3380049929A /* ANN9FirebaseAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1FA5ED225EE3380049929A /* Build configuration list for PBXNativeTarget "ANN9FirebaseAnalytics" */;
+			buildPhases = (
+				90C4BB01B1DAC03C08F038F4 /* [CP] Check Pods Manifest.lock */,
+				5F1FA5E0225EE3380049929A /* Headers */,
+				5F1FA5E1225EE3380049929A /* Sources */,
+				5F1FA5E2225EE3380049929A /* Frameworks */,
+				5F1FA5E3225EE3380049929A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANN9FirebaseAnalytics;
+			productName = ANN9FirebaseAnalytics;
+			productReference = 5F1FA5E5225EE3380049929A /* ANN9FirebaseAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F1FA62B225F395E0049929A /* ANN9FirebaseAnalyticsSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1FA63F225F39600049929A /* Build configuration list for PBXNativeTarget "ANN9FirebaseAnalyticsSample" */;
+			buildPhases = (
+				5F1FA628225F395E0049929A /* Sources */,
+				5F1FA629225F395E0049929A /* Frameworks */,
+				5F1FA62A225F395E0049929A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANN9FirebaseAnalyticsSample;
+			productName = ANN9FirebaseAnalyticsSample;
+			productReference = 5F1FA62C225F395E0049929A /* ANN9FirebaseAnalyticsSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F1FA5DC225EE3380049929A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ANN9;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ann9;
+				TargetAttributes = {
+					5F1FA5E4225EE3380049929A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5F1FA62B225F395E0049929A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F1FA5DF225EE3380049929A /* Build configuration list for PBXProject "ANN9FirebaseAnalytics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F1FA5DB225EE3380049929A;
+			productRefGroup = 5F1FA5E6225EE3380049929A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F1FA5E4225EE3380049929A /* ANN9FirebaseAnalytics */,
+				5F1FA62B225F395E0049929A /* ANN9FirebaseAnalyticsSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1FA5E3225EE3380049929A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA62A225F395E0049929A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA63B225F39600049929A /* LaunchScreen.storyboard in Resources */,
+				5F1FA638225F39600049929A /* Assets.xcassets in Resources */,
+				5F1FA636225F395E0049929A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90C4BB01B1DAC03C08F038F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ANN9FirebaseAnalytics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F1FA5E1225EE3380049929A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA5F7225EE3EF0049929A /* ANN9Analytics.m in Sources */,
+				5F1FA5F3225EE38F0049929A /* ANN9FIRApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1FA628225F395E0049929A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1FA633225F395E0049929A /* ViewController.m in Sources */,
+				5F1FA63E225F39600049929A /* main.m in Sources */,
+				5F1FA630225F395E0049929A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F1FA634225F395E0049929A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1FA635225F395E0049929A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F1FA639225F39600049929A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1FA63A225F39600049929A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F1FA5EB225EE3380049929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F1FA5EC225EE3380049929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F1FA5EE225EE3380049929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38748BA0B395C36EED99B17 /* Pods-ANN9FirebaseAnalytics.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N87RCZ5LLU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ANN9FirebaseAnalytics/Other/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ann9.ANN9FirebaseAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1FA5EF225EE3380049929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB6183982D17AE24A64282B /* Pods-ANN9FirebaseAnalytics.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N87RCZ5LLU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ANN9FirebaseAnalytics/Other/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ann9.ANN9FirebaseAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F1FA640225F39600049929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N87RCZ5LLU;
+				INFOPLIST_FILE = ANN9FirebaseAnalyticsSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ann9.ANN9FirebaseAnalyticsSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1FA641225F39600049929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N87RCZ5LLU;
+				INFOPLIST_FILE = ANN9FirebaseAnalyticsSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ann9.ANN9FirebaseAnalyticsSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1FA5DF225EE3380049929A /* Build configuration list for PBXProject "ANN9FirebaseAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FA5EB225EE3380049929A /* Debug */,
+				5F1FA5EC225EE3380049929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1FA5ED225EE3380049929A /* Build configuration list for PBXNativeTarget "ANN9FirebaseAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FA5EE225EE3380049929A /* Debug */,
+				5F1FA5EF225EE3380049929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1FA63F225F39600049929A /* Build configuration list for PBXNativeTarget "ANN9FirebaseAnalyticsSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FA640225F39600049929A /* Debug */,
+				5F1FA641225F39600049929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F1FA5DC225EE3380049929A /* Project object */;
+}

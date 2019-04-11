@@ -1,0 +1,6 @@
+framework module Pods_ANN9FirebaseAnalytics {
+  umbrella header "Pods-ANN9FirebaseAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
