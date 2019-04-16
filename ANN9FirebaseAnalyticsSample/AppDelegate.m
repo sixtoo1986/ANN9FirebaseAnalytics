@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ANN9FirebaseAnalytics.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [ANN9FIRApp configure];
     return YES;
 }
 
