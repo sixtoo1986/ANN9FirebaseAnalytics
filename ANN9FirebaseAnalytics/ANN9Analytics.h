@@ -44,24 +44,29 @@ NS_ASSUME_NONNULL_BEGIN
                parameters:(nullable NSDictionary<NSString *, id> *)parameters
 NS_SWIFT_NAME(logEvent(_:parameters:));
 
-//+ (void)aSetUserPropertyString:(nullable NSString *)value forName:(NSString *)name
-//NS_SWIFT_NAME(setUserProperty(_:forName:));
-//
-//
-//+ (void)aSetUserID:(nullable NSString *)userID;
-//
-//+ (void)aSetScreenName:(nullable NSString *)screenName
-//           screenClass:(nullable NSString *)screenClassOverride;
-//
-//+ (void)aSetAnalyticsCollectionEnabled:(BOOL)analyticsCollectionEnabled;
-//
-//+ (void)aSetSessionTimeoutInterval:(NSTimeInterval)sessionTimeoutInterval;
-//
-//
-//+ (NSString *)aAppInstanceID;
-//
-//
-//+ (void)aResetAnalyticsData;
+/// @param value The value of the user property. Values can be up to 36 characters long. Setting the
+///     value to nil removes the user property.
+/// @param name The name of the user property to set. Should contain 1 to 24 alphanumeric characters
+///     or underscores and must start with an alphabetic character. The "firebase_", "google_", and
+///     "ga_" prefixes are reserved and should not be used for user property names.
++ (void)aSetUserPropertyString:(nullable NSString *)value forName:(NSString *)name
+NS_SWIFT_NAME(setUserProperty(_:forName:));
+
+
++ (void)aSetUserID:(nullable NSString *)userID;
+
++ (void)aSetScreenName:(nullable NSString *)screenName
+           screenClass:(nullable NSString *)screenClassOverride;
+
++ (void)aSetAnalyticsCollectionEnabled:(BOOL)analyticsCollectionEnabled;
+
++ (void)aSetSessionTimeoutInterval:(NSTimeInterval)sessionTimeoutInterval;
+
+
++ (NSString *)aAppInstanceID;
+
+
++ (void)aResetAnalyticsData;
 
 @end
 
